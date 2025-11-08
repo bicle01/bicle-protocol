@@ -76,7 +76,7 @@ Each node will contribute to the **collective verification of truth**, forming a
 ### 5. Running Your Own 'Node'
 
 ```bash
-[git clone https://github.com/bicle-protocol/bicle-node.git](https://github.com/bicle01/bicle-protocol)
+git clone https://github.com/bicle01/bicle-protocol
 cd bicle-protocol
 pip install -r requirements.txt
 
@@ -94,4 +94,5 @@ pip install -r requirements.txt
 
 ## License
 MIT — Open for forks and independent nodes.
+
 
