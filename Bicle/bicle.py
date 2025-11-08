@@ -57,6 +57,7 @@ RSS_FEEDS = {
         {'name': 'The Times', 'url': 'https://www.thetimes.co.uk/technology/rss'},
         {'name': 'The New York Times', 'url': 'https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml'},
         {'name': 'The Guardian', 'url': 'https://www.theguardian.com/technology/rss'},
+        {'name': 'Stacker.news', 'url': 'https://stacker.news/~tech/rss'},
     ],
 }
 
@@ -656,4 +657,5 @@ def main():
     app.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == '__main__':
+
     main()
